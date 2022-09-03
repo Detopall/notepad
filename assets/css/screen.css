@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body {
+	font-size: 1rem;
+	font-family: 'DynaPuff', sans-serif;
+}
+
+header {
+	font-size: 3rem;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 2rem;
+	background-color: yellow;
+	border: solid black 0.3rem;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+div {
+	width: 10rem;
+	height: 15rem;	
+	margin-bottom: 2rem;
+}
+
+
+textarea {
+	font-family: 'DynaPuff';
+	height: 13rem;
+	width: 9.6rem;
+	resize: none;
+	background-color: yellow;
+	font-size: 1.5rem;
+	border: solid black 0.2rem;
+}
+
+
+button {
+	font-family: 'DynaPuff';
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+#remove-note {
+	margin-left: 8.4rem;
+	background-color: red;
+}
+
+#remove-note:active {
+	background-color: lightcoral;
+}
+
+#new-note {
+	margin: 3rem 1rem 1rem 0;
+	background-color: green;
+	font-family: 'DynaPuff';
+}
+
+#new-note:active {
+	background-color: lightgreen;
+}
+
+#save-notes {
+	margin: 3rem 0 1rem 0;
+	background-color: darkorange;
+}
+
+#save-notes:active {
+	background-color: orange;
+}
